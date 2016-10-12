@@ -5,7 +5,6 @@ WebRTC(Webカメラ)の実験用リポジトリ
 
 - Web Camera
 - [Emotion API subscription key](https://www.microsoft.com/cognitive-services/en-US/subscriptions) (Replace [here](index.js#L70))
-
 - [npm](https://www.npmjs.com/)
 - [Go](https://golang.org/)
 
