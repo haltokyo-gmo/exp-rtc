@@ -1,0 +1,23 @@
+{
+  "name": "exp-rtc",
+  "version": "1.0.0",
+  "description": "WebRTC(Webカメラ)の実験用リポジトリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haltokyo-gmo/exp-rtc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haltokyo-gmo/exp-rtc/issues"
+  },
+  "homepage": "https://github.com/haltokyo-gmo/exp-rtc#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

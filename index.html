@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<style>
-		#video, #canvas {
+		#video, #canvas, #canvas-overlay {
 			width: 600px;
 			height: 400px;
 			border: 1px solid black;
@@ -20,6 +20,11 @@
 			font-size: 5rem;
 			font-weight: bold;
 		}
+		#canvas, #canvas-overlay {
+			position: absolute;
+			top: 500px;
+			left: 10px;
+		}
 	</style>
 </head>
 <body>
@@ -27,6 +32,8 @@
 	<button type="button" id="button">capture</button>
 	<span id="countdown"></span>
 	<canvas id="canvas" width="600" height="400"></canvas>
-	<script src="index.js"></script>
+	<canvas id="canvas-overlay" width="600" height="400"></canvas>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="index.js" async defer></script>
 </body>
 </html>
